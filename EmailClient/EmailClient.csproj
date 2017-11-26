@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="EmailClient.cs" />
+    <Compile Include="LimitedBackend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendEmailsToAgents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
